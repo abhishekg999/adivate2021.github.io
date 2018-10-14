@@ -1,0 +1,135 @@
+body{
+	background: linear-gradient(to right, #a31b00, #669bff);
+	background-size:150%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title1 {
+	font-size: 40px;
+	text-align: center;
+	border: 6px solid black;
+	border-radius: 10px;
+	margin: 50px, auto;
+}
+#title2 {
+	font-size: 30px;
+	border: none;
+}
+#nav li .active {
+	color:gold;
+}
+#nav {
+	background-color: black;
+	padding:20px 0px;
+}
+#nav li {
+	list-style-type: none;
+	display: inline;
+	padding: 0px 40px;
+}
+#nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition-duration: : 0.2s;
+}
+.rotate90 {
+	width: 25%;
+	margin: auto;
+	display: block;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#middle{
+	font-size: 40px;
+	text-align: center;
+}
+.names {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+}
+.sections {
+	display: inline;
+}
+#top{
+	padding: 10px 10px;
+	background: linear-gradient(to right, #6dab88 50%, #ff8488 50%);
+	background-size: 250%;
+	background-position: right;
+	border-radius: 30px;
+	margin: 10px auto;
+	display: block;
+	width: 20%;
+	font-size: 25px;
+	color: #3d3737;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 5;
+}
+#top:hover {
+	background-position: left;
+	color: #d3e05c;
+}
+#middle2{
+	padding: 10px 10px;
+	background: linear-gradient(to right, #6dab88 50%, #ff8488 50%);
+	background-size: 250%;
+	background-position: right;
+	border-radius: 30px;
+	margin: 10px auto;
+	display: block;
+	width: 20%;
+	font-size: 25px;
+	color: #3d3737;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 5;
+}
+#middle2:hover {
+	background-position: left;
+	color: #d3e05c;
+}
+#bottom{
+	padding: 10px 10px;
+	background: linear-gradient(to right, #6dab88 50%, #ff8488 50%);
+	background-size: 250%;
+	background-position: right;
+	border-radius: 30px;
+	margin: 10px auto;
+	display: block;
+	width: 20%;
+	font-size: 25px;
+	color: #3d3737;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 5;
+}
+#bottom:hover {
+	background-position: left;
+	color: #d3e05c;
+}
+
+#middle2{
+	padding: 10px 10px;
+	background: linear-gradient(to right, #6dab88 50%, #ff8488 50%);
+	background-size: 250%;
+	background-position: right;
+	border-radius: 30px;
+	margin: 10px auto;
+	display: block;
+	width: 20%;
+	font-size: 25px;
+	color: #3d3737;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 5;
+}
+#middle2:hover {
+	background-position: left;
+	color: #d3e05c;
+}

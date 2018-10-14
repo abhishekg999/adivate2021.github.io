@@ -1,0 +1,86 @@
+body {
+	margin = 0;
+}
+#sec1 {
+	padding: 80px 10%;
+	background: linear-gradient(45deg, #ec5835, #e8962e);
+	background-size: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+#sec2 {
+	background-color: #888;
+}
+.header {
+	font-size: 50px;
+	text-align: center;
+}
+
+#title {
+	color: red;
+}
+#title2 { 
+	color: teal;
+	padding: 30px 5%;
+	background-color: white;
+	width: 90%;
+	margin: 80px auto;
+	transition-duration: 0.3;
+	border: 1px solid black;
+}
+#nav {
+	background-color: black;
+	padding:20px 0px;
+}
+#nav li {
+	list-style-type: none;
+	display: inline;
+	padding: 0px 40px;
+}
+#nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition-duration: : 0.2s;
+}
+#title2:hover {
+	background-color:teal;
+	color: white;
+}
+#link {
+	padding: 12px 40px;
+	background: linear-gradient(to right, #6dab88 50%, #ff8488 50%);
+	background-size: 250%;
+	background-position: right;
+	border-radius: 30px;
+	margin: 30px auto;
+	display: block;
+	width: 50%;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 5;
+}
+#link:hover {
+	background-position: left;
+
+
+}
+p {
+	font-size: 20px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: center;
+}
+
+img {
+	width: 25%;
+	display: block;
+	margin: auto;
+}
+#nav li .active {
+	color: gold;
+}
